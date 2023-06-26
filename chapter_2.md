@@ -15,8 +15,10 @@ A package manager is a tool developers use to automatically find, download, inst
 Version definition
 Major.Minor.Patch
 
-~version - Approximately equivalent to version, i.e., only accept new patch versions 
+~version - Approximately equivalent to version, i.e., only accept new patch versions
+
 ^version - Compatible with version, i.e., accept new minor and patch versions
+
 version - Must match version exactly
 
 ### What is package-lock.json?
