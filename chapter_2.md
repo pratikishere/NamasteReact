@@ -30,3 +30,5 @@ Note: Don't put package-lock.json in .gitignore file
 ### What is HMR in parcel?
 
 Hot Module Replacement (HMR) improves the development experience by automatically updating modules in the browser at runtime without needing a whole page refresh. This means that application state can be retained as you change small things. Parcel's HMR implementation supports both JavaScript and CSS assets.
+
+Parcel uses file watcher algorithm to track the real-time changes form different files and reload server immediately.
