@@ -38,9 +38,32 @@ Some of the cool things parcel do:
 - Automatic production optimization
 - Minification
 - Compression
+- Compatible with older versions of browser
+- Zero configuration
+- Image optimization
 
 ### What is HMR in parcel?
 
 Hot Module Replacement (HMR) improves the development experience by automatically updating modules in the browser at runtime without needing a whole page refresh. This means that application state can be retained as you change small things. Parcel's HMR implementation supports both JavaScript and CSS assets.
 
 Parcel uses file watcher algorithm to track the real-time changes form different files and reload server immediately.
+
+### parcel commands to remember
+
+npx parcel index.html
+
+Above command executes parcel with entry point index.html
+
+npx parcel build index.html
+
+Above command executes amd do minification, dead-code elimination, compress all the code
+
+### How npm deals with Transitive Dependencies?
+
+[Transitive Dependencies](https://www.beyondjava.net/npm-transitive-dependencies)
+
+### What is Browserslist?
+
+Browserslist is a tool that allows specifying which browsers should be supported in your frontend app by specifying "queries" in a config file. It's used by frameworks/libraries such as React, Angular and Vue, but it's not limited to them.
+
+[browserslist.dev](https://browserslist.dev/?q=bGFzdCAyIHZlcnNpb25z)
