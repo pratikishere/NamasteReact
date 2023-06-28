@@ -8,13 +8,9 @@ const heading1 = React.createElement(
   },
   "Heading 1"
 );
-const heading2 = React.createElement(
-  "h1",
-  {
-    key: "heading2",
-  },
-  "Heading 2"
-);
+
+const heading2 = <h1 key="heading2">Heading 2 using JSX</h1>;
+
 const container = React.createElement(
   "div",
   {
