@@ -1,9 +1,11 @@
 # NamasteReact
+
 This repo is created for learning React JS. The course name is NamasteReact by Akshay Saini
 
 ## Sources
 
 [YouTube](https://www.youtube.com/results?search_query=akshay+saini)
+
 [NamasteReact](https://learn.namastedev.com/)
 
 # Chapter 1 - Inception
@@ -27,3 +29,11 @@ This repo is created for learning React JS. The course name is NamasteReact by A
 - What is HMR in parcel?
 - parcel commands to remember
 - How npm deals with Transitive Dependencies?
+
+# Chapter 3 - Laying the Foundation
+
+- What is Polyfil?
+- What is Babel?
+- How to create the scipt commands?
+- What is JSX?
+- What is diffing?
