@@ -37,3 +37,4 @@ This repo is created for learning React JS. The course name is NamasteReact by A
 - How to create the scipt commands?
 - What is JSX?
 - What is diffing?
+- What is functional component?

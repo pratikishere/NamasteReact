@@ -49,3 +49,20 @@ React follows the observable pattern and listens for state changes. When the sta
 - It uses the observable to detect state and prop changes.
 - React uses an efficient diff algorithm to compare the versions of virtual DOM.
 - It then makes sure that batched updates are sent to the real DOM for repainting or re-rendering of the UI.
+
+### What is functional component?
+
+A functional component is a type of component that is defined as a JavaScript function. They provide a concise syntax and promote a functional programming style. Functional components are also known as stateless components because they don't have their own internal state.
+
+Functional components can also accept input data called props (short for properties) and use them within the component.
+
+```
+import React from 'react';
+
+const Greeting = (props) => {
+  return <h1>Hello, {props.name}!</h1>;
+};
+
+export default Greeting;
+
+```
