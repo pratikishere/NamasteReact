@@ -16,25 +16,30 @@ A polyfill is a piece of code (usually JavaScript on the Web) used to provide mo
 
 If parcel is used and you run or build app using the following commands:
 
+```
 npx parcel index.html -> Runs app
 npx parcel build index.html -> Builds app
+```
 
 Instead of executing these command you can create a command under scripts in package.json file
 
+```
 "start": "npx parcel index.html",
 "build": "npx parcel build index.html"
+```
 
 So it will allow npm to run those script command as following
+
+```
 npm start
 npm run build
+```
 
 ### What is JSX?
 
-JSX stands for JavaScript XML.
-
-JSX allows us to write HTML in React.
-
-JSX makes it easier to write and add HTML in React.
+- JSX stands for JavaScript XML.
+- JSX allows us to write HTML in React.
+- JSX makes it easier to write and add HTML in React.
 
 [React JSX](https://www.w3schools.com/react/react_jsx.asp)
 
@@ -66,3 +71,5 @@ const Greeting = (props) => {
 export default Greeting;
 
 ```
+
+In the example above, the Greeting component accepts a prop called name and renders a customized greeting based on the value of name.
