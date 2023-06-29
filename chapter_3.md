@@ -73,3 +73,54 @@ export default Greeting;
 ```
 
 In the example above, the Greeting component accepts a prop called name and renders a customized greeting based on the value of name.
+
+## Different ways to define functional component, react element
+
+```
+// React element
+const heading = <h1 key="heading">Heading using JSX</h1>;
+
+// React component
+const HeadingComponent = () => {
+  return (
+    <div>
+      <h1>Namste React functional component</h1>
+    </div>
+  );
+};
+
+// React component with shortend syntex
+const HeadingComponentShort = () => (
+    <div>
+      <h1>Namste React functional component</h1>
+    </div>
+);
+
+```
+
+## Use react element inside component
+
+```
+const HeadingComponent = () => {
+  return (
+    <div>
+      {heading}
+      <h1>Namste React functional component</h1>
+    </div>
+  );
+};
+```
+
+## Use react component inside another component
+
+```
+const HeadingComponent = () => {
+  return (
+    <div>
+      {HeadingComponentShort()}
+      <h1>Namste React functional component</h1>
+      <HeadingComponentShort />
+    </div>
+  );
+};
+```
