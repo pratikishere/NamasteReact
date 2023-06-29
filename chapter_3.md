@@ -124,3 +124,9 @@ const HeadingComponent = () => {
   );
 };
 ```
+
+### What sanitize means?
+
+When using the sanitize() method, you typically have a tree of DOM nodes representing some HTML content. This content may come from user input, external sources, or any other untrusted or potentially unsafe origins. The sanitize() method helps ensure that the HTML content is safe to render and doesn't contain any malicious or undesirable elements.
+
+By using the sanitize() method, you can mitigate security risks such as cross-site scripting (XSS) attacks, where malicious scripts can be injected into the rendered HTML. It helps ensure that the sanitized HTML content is safe to be displayed to users without compromising their security.
