@@ -1,6 +1,6 @@
-### CSS
+# CSS
 
-## What if there are multiple style sheets defined? Which style sheet gets the priority?
+### What if there are multiple style sheets defined? Which style sheet gets the priority?
 
 All the styles in a page will "cascade" into a new "virtual" style sheet by the following rules, where number one has the highest priority:
 
@@ -8,7 +8,7 @@ Inline style (inside an HTML element)
 External and internal style sheets (in the head section)  
 Browser default
 
-## CSS background - Shorthand property
+#### CSS background - Shorthand property
 
 Instead of writing:
 
@@ -29,7 +29,7 @@ body {
 }
 ```
 
-## Specific Side Widths
+#### Specific Side Widths
 
 ```
 p.two {
@@ -43,7 +43,7 @@ p.three {
 }
 ```
 
-# If the border-style property has four values:
+#### If the border-style property has four values:
 
 border-style: dotted solid double dashed;  
 top border is dotted  
@@ -51,25 +51,25 @@ right border is solid
 bottom border is double
 left border is dashed
 
-# If the border-style property has three values:
+#### If the border-style property has three values:
 
 border-style: dotted solid double;  
 top border is dotted  
 right and left borders are solid  
 bottom border is double
 
-# If the border-style property has two values:
+#### If the border-style property has two values:
 
 border-style: dotted solid;  
 top and bottom borders are dotted  
 right and left borders are solid
 
-# If the border-style property has one value:
+#### If the border-style property has one value:
 
 border-style: dotted;  
 all four borders are dotted
 
-## Margin - Individual Sides
+#### Margin - Individual Sides
 
 CSS has properties for specifying the margin for each side of an element:
 
