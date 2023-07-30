@@ -1,0 +1,2025 @@
+{
+    "statusCode": 0,
+    "data": {
+      "cacheExpiryTime": 320,
+      "pages": 1,
+      "pageIndex": 0,
+      "scrubber": 0,
+      "filters": [
+        {
+          "type": "FilterWidget",
+          "title": "Cuisines",
+          "key": "CUISINES",
+          "configType": "checkbox",
+          "visible": 1,
+          "options": [
+            {
+              "option": "Desserts",
+              "selected": 0,
+              "visible": 1
+            },
+            {
+              "option": "Ice Cream",
+              "selected": 0,
+              "visible": 1
+            }
+          ],
+          "detail": "",
+          "heading": "Cuisines",
+          "applicable": 1,
+          "searchable": 1
+        }
+      ],
+      "sorts": [
+        {
+          "type": "SortWidget",
+          "key": "RELEVANCE",
+          "title": "Relevance",
+          "selected": 1,
+          "visible": 1,
+          "defaultSelection": true
+        },
+        {
+          "type": "SortWidget",
+          "key": "DELIVERY_TIME",
+          "title": "Delivery Time",
+          "selected": 0,
+          "visible": 1,
+          "defaultSelection": false
+        },
+        {
+          "type": "SortWidget",
+          "key": "RATING",
+          "title": "Rating",
+          "selected": 0,
+          "visible": 1,
+          "defaultSelection": false
+        },
+        {
+          "type": "SortWidget",
+          "key": "COST_FOR_TWO",
+          "title": "Cost: Low to High",
+          "selected": 0,
+          "visible": 1,
+          "defaultSelection": false
+        },
+        {
+          "type": "SortWidget",
+          "key": "COST_FOR_TWO_H2L",
+          "title": "Cost: High to Low",
+          "selected": 0,
+          "visible": 1,
+          "defaultSelection": false
+        }
+      ],
+      "configs": {
+        "ribbons": {
+          "PREORDER": {
+            "type": "PREORDER",
+            "text": "Preorder",
+            "textColor": "#ffffff",
+            "imageId": "sfefefefeegeg",
+            "topBackgroundColor": "#d53d4c",
+            "bottomBackgroundColor": "#af2330",
+            "priority": 3
+          },
+          "EXCLUSIVE": {
+            "type": "EXCLUSIVE",
+            "text": "Exclusive",
+            "textColor": "#ffffff",
+            "imageId": "sfefefefeegeg",
+            "topBackgroundColor": "#fa4a5b",
+            "bottomBackgroundColor": "#d12a3b",
+            "priority": 2
+          },
+          "NEW": {
+            "type": "NEW",
+            "text": "Newly Added",
+            "textColor": "#ffffff",
+            "imageId": "sfefefefeegeg",
+            "topBackgroundColor": "#d53d4c",
+            "bottomBackgroundColor": "#af2330",
+            "priority": 4
+          },
+          "REPEAT": {
+            "type": "REPEAT",
+            "text": "Repeat",
+            "textColor": "#ffffff",
+            "imageId": "sfefefefeegeg",
+            "topBackgroundColor": "#D53D4C",
+            "bottomBackgroundColor": "#B02331",
+            "priority": 6
+          },
+          "CLOUD": {
+            "type": "CLOUD",
+            "text": "Daily Menus",
+            "textColor": "#ffffff",
+            "imageId": "sfefefefeegeg",
+            "topBackgroundColor": "#fa4a5b",
+            "bottomBackgroundColor": "#d12a3b",
+            "priority": 5
+          },
+          "PREMIUM": {
+            "type": "PREMIUM",
+            "text": "Premium",
+            "textColor": "#ffffff",
+            "imageId": "sfefefefeegeg",
+            "topBackgroundColor": "#8a584b",
+            "bottomBackgroundColor": "#583229",
+            "priority": 7
+          },
+          "PROMOTED": {
+            "type": "PROMOTED",
+            "text": "Promoted",
+            "textColor": "#ffffff",
+            "imageId": "sfefefefeegeg",
+            "topBackgroundColor": "#3a3c41",
+            "bottomBackgroundColor": "#1e2023",
+            "priority": 1
+          }
+        },
+        "croutons": {
+          "RAIN": {
+            "type": "Crouton",
+            "bgColor": "#282C3F",
+            "icon": "surge_listing_piuzrv",
+            "textColor": "#ffffff",
+            "title": "Bad Weather",
+            "message": "${amount} extra levied on some restaurants"
+          },
+          "SERVICEABLE_WITH_BANNER_RAIN": {
+            "type": "Crouton",
+            "bgColor": "#282C3F",
+            "icon": "rain_crouton_4x",
+            "textColor": "#ffffff",
+            "title": "Bad Weather",
+            "message": "Few restaurants unserviceable due to rains"
+          }
+        }
+      },
+      "cards": [
+        {
+          "cardType": "seeAllRestaurants",
+          "layoutAlignmentType": "VERTICAL",
+          "data": {
+            "type": "seeAllRestaurants",
+            "data": {
+              "title": "SEE ALL",
+              "totalOpenRestaurants": 1,
+              "cards": [
+                {
+                  "type": "restaurant",
+                  "data": {
+                    "type": "F",
+                    "id": "59312",
+                    "name": "Vadilal Scoop Shop",
+                    "uuid": "02784a6d-db35-40f2-aff4-e96f5be1bd66",
+                    "city": "10",
+                    "area": "Ambawadi",
+                    "totalRatingsString": "1000+ ratings",
+                    "cloudinaryImageId": "8b0057e3b3f57466d1b786ac7d870ad8",
+                    "cuisines": [
+                      "Ice Cream",
+                      "Desserts"
+                    ],
+                    "tags": [
+                      
+                    ],
+                    "costForTwo": 30000,
+                    "costForTwoString": "₹300 FOR TWO",
+                    "deliveryTime": 49,
+                    "minDeliveryTime": 49,
+                    "maxDeliveryTime": 49,
+                    "slaString": "49 MINS",
+                    "lastMileTravel": 3.5999999046325684,
+                    "slugs": {
+                      "restaurant": "vadilal-hangout-ambavadi-navrangpura",
+                      "city": "ahmedabad"
+                    },
+                    "cityState": "10",
+                    "address": "Shop 1, AMI Avenue, Near Azad Society, Opposite Birju Appartment, Ambavadi, Ahmedabad",
+                    "locality": "Ambawadi",
+                    "parentId": 11750,
+                    "unserviceable": false,
+                    "veg": false,
+                    "select": false,
+                    "favorite": false,
+                    "tradeCampaignHeaders": [
+                      
+                    ],
+                    "chain": [
+                      
+                    ],
+                    "feeDetails": {
+                      "fees": [
+                        {
+                          "name": "distance",
+                          "fee": 3300,
+                          "message": ""
+                        },
+                        {
+                          "name": "special",
+                          "fee": 1500,
+                          "message": ""
+                        },
+                        {
+                          "name": "time",
+                          "fee": 0,
+                          "message": ""
+                        }
+                      ],
+                      "totalFees": 4800,
+                      "message": "",
+                      "title": "Delivery Charge",
+                      "amount": "4800",
+                      "icon": ""
+                    },
+                    "availability": {
+                      "opened": true,
+                      "nextOpenMessage": "",
+                      "nextCloseMessage": ""
+                    },
+                    "longDistanceEnabled": 0,
+                    "rainMode": "HEAVY",
+                    "thirdPartyAddress": false,
+                    "thirdPartyVendor": "",
+                    "adTrackingID": "",
+                    "badges": {
+                      "imageBased": [
+                        
+                      ],
+                      "textBased": [
+                        
+                      ],
+                      "textExtendedBadges": [
+                        
+                      ]
+                    },
+                    "lastMileTravelString": "3.5 kms",
+                    "hasSurge": false,
+                    "sla": {
+                      "restaurantId": "59312",
+                      "deliveryTime": 49,
+                      "minDeliveryTime": 49,
+                      "maxDeliveryTime": 49,
+                      "lastMileTravel": 3.5999999046325684,
+                      "lastMileDistance": 0,
+                      "serviceability": "SERVICEABLE",
+                      "rainMode": "HEAVY",
+                      "longDistance": "NOT_LONG_DISTANCE",
+                      "preferentialService": false,
+                      "iconType": "EMPTY"
+                    },
+                    "promoted": false,
+                    "avgRating": "4.6",
+                    "totalRatings": 1000,
+                    "new": false
+                  },
+                  "subtype": "basic",
+                  "crouton": {
+                    "type": "RAIN",
+                    "metaInfo": {
+                      "bgColor": "#282C3F",
+                      "icon": "surge_listing_piuzrv",
+                      "textColor": "#ffffff",
+                      "title": "Bad Weather",
+                      "message": "₹15 extra levied on some restaurants"
+                    }
+                  }
+                },
+                {
+                  "type": "restaurant",
+                  "data": {
+                    "type": "F",
+                    "id": "179463",
+                    "name": "Subway",
+                    "uuid": "ebf08f70-67d8-4731-8653-2b244bc23de0",
+                    "city": "10",
+                    "area": "Vastrapur",
+                    "totalRatingsString": "1000+ ratings",
+                    "cloudinaryImageId": "1ace5fa65eff3e1223feb696c956b38b",
+                    "cuisines": [
+                      "Healthy Food",
+                      "Salads",
+                      "Snacks",
+                      "Desserts",
+                      "Beverages"
+                    ],
+                    "tags": [
+                      
+                    ],
+                    "costForTwo": 35000,
+                    "costForTwoString": "₹350 FOR TWO",
+                    "deliveryTime": 67,
+                    "minDeliveryTime": 67,
+                    "maxDeliveryTime": 67,
+                    "slaString": "67 MINS",
+                    "lastMileTravel": 3.5,
+                    "slugs": {
+                      "restaurant": "subway-vastrapur-vastrapur",
+                      "city": "ahmedabad"
+                    },
+                    "cityState": "10",
+                    "address": "Ground Floor, Shilp Square, A Wing, opp. himalaya Mall, Drive Inn Road, Vastrapur, Ahmedabad.",
+                    "locality": "Opp. Himalaya Mall",
+                    "parentId": 2,
+                    "unserviceable": true,
+                    "veg": false,
+                    "select": false,
+                    "favorite": false,
+                    "tradeCampaignHeaders": [
+                      
+                    ],
+                    "chain": [
+                      
+                    ],
+                    "feeDetails": {
+                      "fees": [
+                        {
+                          "name": "distance",
+                          "fee": 3300,
+                          "message": ""
+                        },
+                        {
+                          "name": "special",
+                          "fee": 1500,
+                          "message": ""
+                        },
+                        {
+                          "name": "time",
+                          "fee": 0,
+                          "message": ""
+                        }
+                      ],
+                      "totalFees": 4800,
+                      "message": "",
+                      "title": "Delivery Charge",
+                      "amount": "4800",
+                      "icon": ""
+                    },
+                    "availability": {
+                      "opened": true,
+                      "nextOpenMessage": "",
+                      "nextCloseMessage": ""
+                    },
+                    "longDistanceEnabled": 0,
+                    "rainMode": "HEAVY",
+                    "thirdPartyAddress": false,
+                    "thirdPartyVendor": "",
+                    "adTrackingID": "",
+                    "badges": {
+                      "imageBased": [
+                        
+                      ],
+                      "textBased": [
+                        
+                      ],
+                      "textExtendedBadges": [
+                        
+                      ]
+                    },
+                    "lastMileTravelString": "3.5 kms",
+                    "hasSurge": false,
+                    "aggregatedDiscountInfoV3": {
+                      "header": "20% OFF",
+                      "subHeader": "UPTO ₹60",
+                      "discountTag": "",
+                      "headerTypeV2": 0
+                    },
+                    "sla": {
+                      "restaurantId": "179463",
+                      "deliveryTime": 67,
+                      "minDeliveryTime": 67,
+                      "maxDeliveryTime": 67,
+                      "lastMileTravel": 3.5,
+                      "lastMileDistance": 0,
+                      "serviceability": "SERVICEABLE_WITH_BANNER",
+                      "rainMode": "HEAVY",
+                      "longDistance": "NOT_LONG_DISTANCE",
+                      "preferentialService": false,
+                      "iconType": "EMPTY"
+                    },
+                    "promoted": false,
+                    "avgRating": "4.0",
+                    "totalRatings": 1000,
+                    "new": false
+                  },
+                  "subtype": "basic",
+                  "crouton": {
+                    "type": "RAIN",
+                    "metaInfo": {
+                      "bgColor": "#282C3F",
+                      "icon": "surge_listing_piuzrv",
+                      "textColor": "#ffffff",
+                      "title": "Bad Weather",
+                      "message": "₹15 extra levied on some restaurants"
+                    }
+                  }
+                },
+                {
+                  "type": "restaurant",
+                  "data": {
+                    "type": "F",
+                    "id": "676758",
+                    "name": "Big Daddy Cafe",
+                    "uuid": "04d7e8cf-0939-43a8-876e-a84572d1ee76",
+                    "city": "10",
+                    "area": "Bopal",
+                    "totalRatingsString": "Too Few Ratings",
+                    "cloudinaryImageId": "2c56dd475ebe4c64543fee03ef7eee61",
+                    "cuisines": [
+                      "Beverages",
+                      "Italian",
+                      "Fast Food",
+                      "Chinese",
+                      "Tandoor"
+                    ],
+                    "tags": [
+                      
+                    ],
+                    "costForTwo": 50000,
+                    "costForTwoString": "₹500 FOR TWO",
+                    "deliveryTime": 81,
+                    "minDeliveryTime": 81,
+                    "maxDeliveryTime": 81,
+                    "slaString": "81 MINS",
+                    "lastMileTravel": 6.900000095367432,
+                    "slugs": {
+                      "restaurant": "big-daddy-cafe-bopal-bopal",
+                      "city": "ahmedabad"
+                    },
+                    "cityState": "10",
+                    "address": "YMCA TO SP RING ROAD NEAR GREEN VIEW FARM MUMATPURA ROAD MAKARBA AHMEDABAD",
+                    "locality": "Ring Road",
+                    "parentId": 404613,
+                    "unserviceable": true,
+                    "veg": false,
+                    "select": false,
+                    "favorite": false,
+                    "tradeCampaignHeaders": [
+                      
+                    ],
+                    "chain": [
+                      
+                    ],
+                    "feeDetails": {
+                      "fees": [
+                        {
+                          "name": "distance",
+                          "fee": 5400,
+                          "message": ""
+                        },
+                        {
+                          "name": "special",
+                          "fee": 1500,
+                          "message": ""
+                        },
+                        {
+                          "name": "time",
+                          "fee": 0,
+                          "message": ""
+                        }
+                      ],
+                      "totalFees": 6900,
+                      "message": "",
+                      "title": "Delivery Charge",
+                      "amount": "6900",
+                      "icon": ""
+                    },
+                    "availability": {
+                      "opened": true,
+                      "nextOpenMessage": "",
+                      "nextCloseMessage": ""
+                    },
+                    "longDistanceEnabled": 0,
+                    "rainMode": "HEAVY",
+                    "thirdPartyAddress": false,
+                    "thirdPartyVendor": "",
+                    "adTrackingID": "",
+                    "badges": {
+                      "imageBased": [
+                        
+                      ],
+                      "textBased": [
+                        
+                      ],
+                      "textExtendedBadges": [
+                        
+                      ]
+                    },
+                    "lastMileTravelString": "6.9 kms",
+                    "hasSurge": false,
+                    "sla": {
+                      "restaurantId": "676758",
+                      "deliveryTime": 81,
+                      "minDeliveryTime": 81,
+                      "maxDeliveryTime": 81,
+                      "lastMileTravel": 6.900000095367432,
+                      "lastMileDistance": 0,
+                      "serviceability": "SERVICEABLE_WITH_BANNER",
+                      "rainMode": "HEAVY",
+                      "longDistance": "NOT_LONG_DISTANCE",
+                      "preferentialService": false,
+                      "iconType": "EMPTY"
+                    },
+                    "promoted": false,
+                    "avgRating": "--",
+                    "totalRatings": 0,
+                    "new": false
+                  },
+                  "subtype": "basic",
+                  "crouton": {
+                    "type": "RAIN",
+                    "metaInfo": {
+                      "bgColor": "#282C3F",
+                      "icon": "surge_listing_piuzrv",
+                      "textColor": "#ffffff",
+                      "title": "Bad Weather",
+                      "message": "₹15 extra levied on some restaurants"
+                    }
+                  }
+                },
+                {
+                  "type": "restaurant",
+                  "data": {
+                    "type": "F",
+                    "id": "716004",
+                    "name": "Upper Crust",
+                    "uuid": "80a86be9-ecda-46b3-a71f-1f2ff82989b1",
+                    "city": "10",
+                    "area": "Naranpura",
+                    "totalRatingsString": "Too Few Ratings",
+                    "cloudinaryImageId": "bc1d0ae93c01da87d5071032bd49f903",
+                    "cuisines": [
+                      "Bakery"
+                    ],
+                    "tags": [
+                      
+                    ],
+                    "costForTwo": 20000,
+                    "costForTwoString": "₹200 FOR TWO",
+                    "deliveryTime": 74,
+                    "minDeliveryTime": 74,
+                    "maxDeliveryTime": 74,
+                    "slaString": "74 MINS",
+                    "lastMileTravel": 6.5,
+                    "slugs": {
+                      "restaurant": "upper-crust-naranpura-naranpura",
+                      "city": "ahmedabad"
+                    },
+                    "cityState": "10",
+                    "address": "12, Chandan Complex, Chimanlal Girdharlal Road, Swastik Cross Roads, Navrangpura, Ahmedabad, Gujarat - 380009",
+                    "locality": "Chandan Complex",
+                    "parentId": 4740,
+                    "unserviceable": true,
+                    "veg": false,
+                    "select": false,
+                    "favorite": false,
+                    "tradeCampaignHeaders": [
+                      
+                    ],
+                    "chain": [
+                      
+                    ],
+                    "feeDetails": {
+                      "fees": [
+                        {
+                          "name": "distance",
+                          "fee": 5400,
+                          "message": ""
+                        },
+                        {
+                          "name": "special",
+                          "fee": 1500,
+                          "message": ""
+                        },
+                        {
+                          "name": "time",
+                          "fee": 0,
+                          "message": ""
+                        }
+                      ],
+                      "totalFees": 6900,
+                      "message": "",
+                      "title": "Delivery Charge",
+                      "amount": "6900",
+                      "icon": ""
+                    },
+                    "availability": {
+                      "opened": true,
+                      "nextOpenMessage": "",
+                      "nextCloseMessage": ""
+                    },
+                    "longDistanceEnabled": 0,
+                    "rainMode": "HEAVY",
+                    "thirdPartyAddress": false,
+                    "thirdPartyVendor": "",
+                    "adTrackingID": "",
+                    "badges": {
+                      "imageBased": [
+                        
+                      ],
+                      "textBased": [
+                        
+                      ],
+                      "textExtendedBadges": [
+                        
+                      ]
+                    },
+                    "lastMileTravelString": "6.5 kms",
+                    "hasSurge": false,
+                    "sla": {
+                      "restaurantId": "716004",
+                      "deliveryTime": 74,
+                      "minDeliveryTime": 74,
+                      "maxDeliveryTime": 74,
+                      "lastMileTravel": 6.5,
+                      "lastMileDistance": 0,
+                      "serviceability": "NON_SERVICEABLE",
+                      "rainMode": "HEAVY",
+                      "longDistance": "NOT_LONG_DISTANCE",
+                      "preferentialService": false,
+                      "iconType": "EMPTY"
+                    },
+                    "promoted": false,
+                    "avgRating": "--",
+                    "totalRatings": 0,
+                    "new": true
+                  },
+                  "subtype": "basic",
+                  "crouton": {
+                    "type": "RAIN",
+                    "metaInfo": {
+                      "bgColor": "#282C3F",
+                      "icon": "surge_listing_piuzrv",
+                      "textColor": "#ffffff",
+                      "title": "Bad Weather",
+                      "message": "₹15 extra levied on some restaurants"
+                    }
+                  }
+                },
+                {
+                  "type": "restaurant",
+                  "data": {
+                    "type": "F",
+                    "id": "720554",
+                    "name": "The Vegan Hut",
+                    "uuid": "bfc0e62d-1d20-486c-9080-f997f327d51b",
+                    "city": "10",
+                    "area": "Prahlad Nagar",
+                    "totalRatingsString": "Too Few Ratings",
+                    "cloudinaryImageId": "f6d0913fce191e241b17122c8fd5c475",
+                    "cuisines": [
+                      "Beverages",
+                      "Snacks",
+                      "Ice Cream"
+                    ],
+                    "tags": [
+                      
+                    ],
+                    "costForTwo": 40000,
+                    "costForTwoString": "₹400 FOR TWO",
+                    "deliveryTime": 80,
+                    "minDeliveryTime": 80,
+                    "maxDeliveryTime": 80,
+                    "slaString": "80 MINS",
+                    "lastMileTravel": 4.599999904632568,
+                    "slugs": {
+                      "restaurant": "the-vegan-hut-prahlad-nagar-prahlad-nagar",
+                      "city": "ahmedabad"
+                    },
+                    "cityState": "10",
+                    "address": "Punitnagar Society Part 2, 53, Rukshmani Vallabh Society, Nehru Nagar, Ambawadi, Ahmedabad, Gujarat 380015, India",
+                    "locality": "Nehru Nagar",
+                    "parentId": 429315,
+                    "unserviceable": true,
+                    "veg": true,
+                    "select": false,
+                    "favorite": false,
+                    "tradeCampaignHeaders": [
+                      
+                    ],
+                    "chain": [
+                      
+                    ],
+                    "feeDetails": {
+                      "fees": [
+                        {
+                          "name": "distance",
+                          "fee": 3300,
+                          "message": ""
+                        },
+                        {
+                          "name": "special",
+                          "fee": 1500,
+                          "message": ""
+                        },
+                        {
+                          "name": "time",
+                          "fee": 0,
+                          "message": ""
+                        }
+                      ],
+                      "totalFees": 4800,
+                      "message": "",
+                      "title": "Delivery Charge",
+                      "amount": "4800",
+                      "icon": ""
+                    },
+                    "availability": {
+                      "opened": true,
+                      "nextOpenMessage": "",
+                      "nextCloseMessage": ""
+                    },
+                    "longDistanceEnabled": 0,
+                    "rainMode": "HEAVY",
+                    "thirdPartyAddress": false,
+                    "thirdPartyVendor": "",
+                    "adTrackingID": "",
+                    "badges": {
+                      "imageBased": [
+                        
+                      ],
+                      "textBased": [
+                        
+                      ],
+                      "textExtendedBadges": [
+                        
+                      ]
+                    },
+                    "lastMileTravelString": "4.5 kms",
+                    "hasSurge": false,
+                    "aggregatedDiscountInfoV3": {
+                      "header": "30% OFF",
+                      "subHeader": "UPTO ₹150",
+                      "discountTag": "SAVE BIG",
+                      "headerTypeV2": 0
+                    },
+                    "sla": {
+                      "restaurantId": "720554",
+                      "deliveryTime": 80,
+                      "minDeliveryTime": 80,
+                      "maxDeliveryTime": 80,
+                      "lastMileTravel": 4.599999904632568,
+                      "lastMileDistance": 0,
+                      "serviceability": "SERVICEABLE_WITH_BANNER",
+                      "rainMode": "HEAVY",
+                      "longDistance": "NOT_LONG_DISTANCE",
+                      "preferentialService": false,
+                      "iconType": "EMPTY"
+                    },
+                    "promoted": false,
+                    "avgRating": "--",
+                    "totalRatings": 0,
+                    "new": true
+                  },
+                  "subtype": "basic",
+                  "crouton": {
+                    "type": "RAIN",
+                    "metaInfo": {
+                      "bgColor": "#282C3F",
+                      "icon": "surge_listing_piuzrv",
+                      "textColor": "#ffffff",
+                      "title": "Bad Weather",
+                      "message": "₹15 extra levied on some restaurants"
+                    }
+                  }
+                },
+                {
+                  "type": "restaurant",
+                  "data": {
+                    "type": "F",
+                    "id": "393821",
+                    "name": "Arabian Al Baik",
+                    "uuid": "dcbdef35-034f-439a-a37d-3a99795d84e3",
+                    "city": "10",
+                    "area": "Sarkhej",
+                    "totalRatingsString": "100+ ratings",
+                    "cloudinaryImageId": "pbcdenuf1zb1pkob7cjx",
+                    "cuisines": [
+                      "Arabian",
+                      "Indian"
+                    ],
+                    "tags": [
+                      
+                    ],
+                    "costForTwo": 30000,
+                    "costForTwoString": "₹300 FOR TWO",
+                    "deliveryTime": 69,
+                    "minDeliveryTime": 69,
+                    "maxDeliveryTime": 69,
+                    "slaString": "69 MINS",
+                    "lastMileTravel": 1.600000023841858,
+                    "slugs": {
+                      "restaurant": "arabian-al-baik-sarkhej-sarkhej",
+                      "city": "ahmedabad"
+                    },
+                    "cityState": "10",
+                    "address": "B  611  GOKULAM APARTMENTS NR. UJALA CIRCLE, VILLAGE : SARKHEJ-OKAF ( M+OG) (PART), AHMEDBAD",
+                    "locality": "Sarkhejokaf",
+                    "parentId": 241158,
+                    "unserviceable": true,
+                    "veg": false,
+                    "select": false,
+                    "favorite": false,
+                    "tradeCampaignHeaders": [
+                      
+                    ],
+                    "chain": [
+                      
+                    ],
+                    "feeDetails": {
+                      "fees": [
+                        {
+                          "name": "distance",
+                          "fee": 2400,
+                          "message": ""
+                        },
+                        {
+                          "name": "special",
+                          "fee": 1500,
+                          "message": ""
+                        },
+                        {
+                          "name": "time",
+                          "fee": 0,
+                          "message": ""
+                        }
+                      ],
+                      "totalFees": 3900,
+                      "message": "",
+                      "title": "Delivery Charge",
+                      "amount": "3900",
+                      "icon": ""
+                    },
+                    "availability": {
+                      "opened": true,
+                      "nextOpenMessage": "",
+                      "nextCloseMessage": ""
+                    },
+                    "longDistanceEnabled": 0,
+                    "rainMode": "HEAVY",
+                    "thirdPartyAddress": false,
+                    "thirdPartyVendor": "",
+                    "adTrackingID": "",
+                    "badges": {
+                      "imageBased": [
+                        
+                      ],
+                      "textBased": [
+                        
+                      ],
+                      "textExtendedBadges": [
+                        
+                      ]
+                    },
+                    "lastMileTravelString": "1.6 kms",
+                    "hasSurge": false,
+                    "sla": {
+                      "restaurantId": "393821",
+                      "deliveryTime": 69,
+                      "minDeliveryTime": 69,
+                      "maxDeliveryTime": 69,
+                      "lastMileTravel": 1.600000023841858,
+                      "lastMileDistance": 0,
+                      "serviceability": "SERVICEABLE_WITH_BANNER",
+                      "rainMode": "HEAVY",
+                      "longDistance": "NOT_LONG_DISTANCE",
+                      "preferentialService": false,
+                      "iconType": "EMPTY"
+                    },
+                    "promoted": false,
+                    "avgRating": "4.3",
+                    "totalRatings": 100,
+                    "new": false
+                  },
+                  "subtype": "basic",
+                  "crouton": {
+                    "type": "RAIN",
+                    "metaInfo": {
+                      "bgColor": "#282C3F",
+                      "icon": "surge_listing_piuzrv",
+                      "textColor": "#ffffff",
+                      "title": "Bad Weather",
+                      "message": "₹15 extra levied on some restaurants"
+                    }
+                  }
+                },
+                {
+                  "type": "restaurant",
+                  "data": {
+                    "type": "F",
+                    "id": "503533",
+                    "name": "GetAWay-Desserts",
+                    "uuid": "e99258b3-f778-4c8d-8e54-fb7a91280746",
+                    "city": "10",
+                    "area": "Prahlad Nagar",
+                    "totalRatingsString": "50+ ratings",
+                    "cloudinaryImageId": "2e93c40100a50e4bfabce89c35154ec6",
+                    "cuisines": [
+                      "Ice Cream",
+                      "Desserts",
+                      "Healthy Food"
+                    ],
+                    "tags": [
+                      
+                    ],
+                    "costForTwo": 20000,
+                    "costForTwoString": "₹200 FOR TWO",
+                    "deliveryTime": 75,
+                    "minDeliveryTime": 75,
+                    "maxDeliveryTime": 75,
+                    "slaString": "75 MINS",
+                    "lastMileTravel": 2.5999999046325684,
+                    "slugs": {
+                      "restaurant": "getawhey---healthy-ice-creams-prahlad-nagar-prahlad-nagar",
+                      "city": "ahmedabad"
+                    },
+                    "cityState": "10",
+                    "address": "29, 1st Floor, Above Maruti Courier, Vraj Vihar - 3, Prernatirth Derasar Road, Jodhpur, Ahmedabad- 380015, Jodhpur Char Rasta , Ahmedabad Municipal Corporation, Ahmedabad Municipal Corporation, Gujara",
+                    "locality": "Above Maruti Courier",
+                    "parentId": 354819,
+                    "unserviceable": true,
+                    "veg": false,
+                    "select": false,
+                    "favorite": false,
+                    "tradeCampaignHeaders": [
+                      
+                    ],
+                    "chain": [
+                      
+                    ],
+                    "feeDetails": {
+                      "fees": [
+                        {
+                          "name": "distance",
+                          "fee": 2400,
+                          "message": ""
+                        },
+                        {
+                          "name": "special",
+                          "fee": 1500,
+                          "message": ""
+                        },
+                        {
+                          "name": "time",
+                          "fee": 0,
+                          "message": ""
+                        }
+                      ],
+                      "totalFees": 3900,
+                      "message": "",
+                      "title": "Delivery Charge",
+                      "amount": "3900",
+                      "icon": ""
+                    },
+                    "availability": {
+                      "opened": true,
+                      "nextOpenMessage": "",
+                      "nextCloseMessage": ""
+                    },
+                    "longDistanceEnabled": 0,
+                    "rainMode": "HEAVY",
+                    "thirdPartyAddress": false,
+                    "thirdPartyVendor": "",
+                    "adTrackingID": "",
+                    "badges": {
+                      "imageBased": [
+                        
+                      ],
+                      "textBased": [
+                        
+                      ],
+                      "textExtendedBadges": [
+                        
+                      ]
+                    },
+                    "lastMileTravelString": "2.5 kms",
+                    "hasSurge": false,
+                    "aggregatedDiscountInfoV3": {
+                      "header": "₹125 OFF",
+                      "subHeader": "ABOVE ₹249",
+                      "discountTag": "FLAT DEAL",
+                      "headerTypeV2": 0
+                    },
+                    "sla": {
+                      "restaurantId": "503533",
+                      "deliveryTime": 75,
+                      "minDeliveryTime": 75,
+                      "maxDeliveryTime": 75,
+                      "lastMileTravel": 2.5999999046325684,
+                      "lastMileDistance": 0,
+                      "serviceability": "SERVICEABLE_WITH_BANNER",
+                      "rainMode": "HEAVY",
+                      "longDistance": "NOT_LONG_DISTANCE",
+                      "preferentialService": false,
+                      "iconType": "EMPTY"
+                    },
+                    "promoted": false,
+                    "avgRating": "4.1",
+                    "totalRatings": 50,
+                    "new": false
+                  },
+                  "subtype": "basic",
+                  "crouton": {
+                    "type": "RAIN",
+                    "metaInfo": {
+                      "bgColor": "#282C3F",
+                      "icon": "surge_listing_piuzrv",
+                      "textColor": "#ffffff",
+                      "title": "Bad Weather",
+                      "message": "₹15 extra levied on some restaurants"
+                    }
+                  }
+                },
+                {
+                  "type": "restaurant",
+                  "data": {
+                    "type": "F",
+                    "id": "650146",
+                    "name": "A Gourmesserie",
+                    "uuid": "edd4f129-c986-4209-bc09-f046ecec925d",
+                    "city": "10",
+                    "area": "Vastrapur",
+                    "totalRatingsString": "50+ ratings",
+                    "cloudinaryImageId": "e581f5563fb74a85153931287f39bacb",
+                    "cuisines": [
+                      "Desserts",
+                      "Beverages",
+                      "Pizzas",
+                      "Bakery"
+                    ],
+                    "tags": [
+                      
+                    ],
+                    "costForTwo": 100000,
+                    "costForTwoString": "₹1000 FOR TWO",
+                    "deliveryTime": 55,
+                    "minDeliveryTime": 55,
+                    "maxDeliveryTime": 55,
+                    "slaString": "55 MINS",
+                    "lastMileTravel": 1.7999999523162842,
+                    "slugs": {
+                      "restaurant": "a-gourmesserie-vastrapur-vastrapur",
+                      "city": "ahmedabad"
+                    },
+                    "cityState": "10",
+                    "address": "GF Shop No. 4, Zion Z One, Nr Avlon Hotel, Sindhubhavan Marg, Bodakdev, Ahmedabad, Gujarat-380054",
+                    "locality": "Bodakdev",
+                    "parentId": 265229,
+                    "unserviceable": true,
+                    "veg": false,
+                    "select": false,
+                    "favorite": false,
+                    "tradeCampaignHeaders": [
+                      
+                    ],
+                    "chain": [
+                      
+                    ],
+                    "feeDetails": {
+                      "fees": [
+                        {
+                          "name": "distance",
+                          "fee": 2400,
+                          "message": ""
+                        },
+                        {
+                          "name": "special",
+                          "fee": 1500,
+                          "message": ""
+                        },
+                        {
+                          "name": "time",
+                          "fee": 0,
+                          "message": ""
+                        }
+                      ],
+                      "totalFees": 3900,
+                      "message": "",
+                      "title": "Delivery Charge",
+                      "amount": "3900",
+                      "icon": ""
+                    },
+                    "availability": {
+                      "opened": true,
+                      "nextOpenMessage": "",
+                      "nextCloseMessage": ""
+                    },
+                    "longDistanceEnabled": 0,
+                    "rainMode": "HEAVY",
+                    "thirdPartyAddress": false,
+                    "thirdPartyVendor": "",
+                    "adTrackingID": "",
+                    "badges": {
+                      "imageBased": [
+                        
+                      ],
+                      "textBased": [
+                        
+                      ],
+                      "textExtendedBadges": [
+                        
+                      ]
+                    },
+                    "lastMileTravelString": "1.7 kms",
+                    "hasSurge": false,
+                    "sla": {
+                      "restaurantId": "650146",
+                      "deliveryTime": 55,
+                      "minDeliveryTime": 55,
+                      "maxDeliveryTime": 55,
+                      "lastMileTravel": 1.7999999523162842,
+                      "lastMileDistance": 0,
+                      "serviceability": "SERVICEABLE_WITH_BANNER",
+                      "rainMode": "HEAVY",
+                      "longDistance": "NOT_LONG_DISTANCE",
+                      "preferentialService": false,
+                      "iconType": "EMPTY"
+                    },
+                    "promoted": false,
+                    "avgRating": "4.1",
+                    "totalRatings": 50,
+                    "new": false
+                  },
+                  "subtype": "basic",
+                  "crouton": {
+                    "type": "RAIN",
+                    "metaInfo": {
+                      "bgColor": "#282C3F",
+                      "icon": "surge_listing_piuzrv",
+                      "textColor": "#ffffff",
+                      "title": "Bad Weather",
+                      "message": "₹15 extra levied on some restaurants"
+                    }
+                  }
+                },
+                {
+                  "type": "restaurant",
+                  "data": {
+                    "type": "F",
+                    "id": "145695",
+                    "name": "Behrouz Biryani",
+                    "uuid": "32607717-ce61-4ea5-88d7-525c902b76fb",
+                    "city": "10",
+                    "area": "Bopal",
+                    "totalRatingsString": "1000+ ratings",
+                    "cloudinaryImageId": "cos63gopnmzobfo8xoog",
+                    "cuisines": [
+                      "Biryani",
+                      "Mughlai",
+                      "Lucknowi",
+                      "Hyderabadi",
+                      "Kebabs",
+                      "North Indian",
+                      "Desserts",
+                      "Beverages"
+                    ],
+                    "tags": [
+                      
+                    ],
+                    "costForTwo": 50000,
+                    "costForTwoString": "₹500 FOR TWO",
+                    "deliveryTime": 79,
+                    "minDeliveryTime": 79,
+                    "maxDeliveryTime": 79,
+                    "slaString": "79 MINS",
+                    "lastMileTravel": 6.599999904632568,
+                    "slugs": {
+                      "restaurant": "behrouz-biryani-ghuma-south-bopal-bopal",
+                      "city": "ahmedabad"
+                    },
+                    "cityState": "10",
+                    "address": "Shop 1,2 and 3, Kavisha celebration, Opposite Aarohi Club, Extension Road, Junction of, South Bopal, Bopal, Ahmedabad, Gujarat 380058",
+                    "locality": "Ghuma, South Bopal",
+                    "parentId": 1803,
+                    "unserviceable": true,
+                    "veg": false,
+                    "select": false,
+                    "favorite": false,
+                    "tradeCampaignHeaders": [
+                      
+                    ],
+                    "chain": [
+                      
+                    ],
+                    "feeDetails": {
+                      "fees": [
+                        {
+                          "name": "distance",
+                          "fee": 5400,
+                          "message": ""
+                        },
+                        {
+                          "name": "special",
+                          "fee": 1500,
+                          "message": ""
+                        },
+                        {
+                          "name": "time",
+                          "fee": 0,
+                          "message": ""
+                        }
+                      ],
+                      "totalFees": 6900,
+                      "message": "",
+                      "title": "Delivery Charge",
+                      "amount": "6900",
+                      "icon": ""
+                    },
+                    "availability": {
+                      "opened": true,
+                      "nextOpenMessage": "",
+                      "nextCloseMessage": ""
+                    },
+                    "longDistanceEnabled": 0,
+                    "rainMode": "HEAVY",
+                    "thirdPartyAddress": false,
+                    "thirdPartyVendor": "",
+                    "adTrackingID": "",
+                    "badges": {
+                      "imageBased": [
+                        
+                      ],
+                      "textBased": [
+                        
+                      ],
+                      "textExtendedBadges": [
+                        
+                      ]
+                    },
+                    "lastMileTravelString": "6.5 kms",
+                    "hasSurge": false,
+                    "aggregatedDiscountInfoV3": {
+                      "header": "₹125 OFF",
+                      "subHeader": "ABOVE ₹249",
+                      "discountTag": "FLAT DEAL",
+                      "headerTypeV2": 0
+                    },
+                    "sla": {
+                      "restaurantId": "145695",
+                      "deliveryTime": 79,
+                      "minDeliveryTime": 79,
+                      "maxDeliveryTime": 79,
+                      "lastMileTravel": 6.599999904632568,
+                      "lastMileDistance": 0,
+                      "serviceability": "NON_SERVICEABLE",
+                      "rainMode": "HEAVY",
+                      "longDistance": "NOT_LONG_DISTANCE",
+                      "preferentialService": false,
+                      "iconType": "EMPTY"
+                    },
+                    "promoted": false,
+                    "avgRating": "4.0",
+                    "totalRatings": 1000,
+                    "new": false
+                  },
+                  "subtype": "basic",
+                  "crouton": {
+                    "type": "RAIN",
+                    "metaInfo": {
+                      "bgColor": "#282C3F",
+                      "icon": "surge_listing_piuzrv",
+                      "textColor": "#ffffff",
+                      "title": "Bad Weather",
+                      "message": "₹15 extra levied on some restaurants"
+                    }
+                  }
+                },
+                {
+                  "type": "restaurant",
+                  "data": {
+                    "type": "F",
+                    "id": "722745",
+                    "name": "Samosa & Co. By TGB",
+                    "uuid": "4f98d85d-3e60-4c20-a0a8-2bb3f6afc37e",
+                    "city": "10",
+                    "area": "Navrangpura",
+                    "totalRatingsString": "Too Few Ratings",
+                    "cloudinaryImageId": "99f9a9f180dff5d52688f6ef33432514",
+                    "cuisines": [
+                      "Street Food",
+                      "Fast Food"
+                    ],
+                    "tags": [
+                      
+                    ],
+                    "costForTwo": 20000,
+                    "costForTwoString": "₹200 FOR TWO",
+                    "deliveryTime": 70,
+                    "minDeliveryTime": 70,
+                    "maxDeliveryTime": 70,
+                    "slaString": "70 MINS",
+                    "lastMileTravel": 5.900000095367432,
+                    "slugs": {
+                      "restaurant": "samosa-&-co.-by-tgb-navrangpura-navrangpura",
+                      "city": "ahmedabad"
+                    },
+                    "cityState": "10",
+                    "address": "4, Prakash Park Society Ltd., Opp. HL Commerce College, Commerce six circle, Navrangpura, Ahmedabad-380006",
+                    "locality": "commerce six circle",
+                    "parentId": 345480,
+                    "unserviceable": true,
+                    "veg": false,
+                    "select": false,
+                    "favorite": false,
+                    "tradeCampaignHeaders": [
+                      
+                    ],
+                    "chain": [
+                      
+                    ],
+                    "feeDetails": {
+                      "fees": [
+                        {
+                          "name": "distance",
+                          "fee": 4700,
+                          "message": ""
+                        },
+                        {
+                          "name": "special",
+                          "fee": 1500,
+                          "message": ""
+                        },
+                        {
+                          "name": "time",
+                          "fee": 0,
+                          "message": ""
+                        }
+                      ],
+                      "totalFees": 6200,
+                      "message": "",
+                      "title": "Delivery Charge",
+                      "amount": "6200",
+                      "icon": ""
+                    },
+                    "availability": {
+                      "opened": true,
+                      "nextOpenMessage": "",
+                      "nextCloseMessage": ""
+                    },
+                    "longDistanceEnabled": 0,
+                    "rainMode": "HEAVY",
+                    "thirdPartyAddress": false,
+                    "thirdPartyVendor": "",
+                    "adTrackingID": "",
+                    "badges": {
+                      "imageBased": [
+                        
+                      ],
+                      "textBased": [
+                        
+                      ],
+                      "textExtendedBadges": [
+                        
+                      ]
+                    },
+                    "lastMileTravelString": "5.9 kms",
+                    "hasSurge": false,
+                    "sla": {
+                      "restaurantId": "722745",
+                      "deliveryTime": 70,
+                      "minDeliveryTime": 70,
+                      "maxDeliveryTime": 70,
+                      "lastMileTravel": 5.900000095367432,
+                      "lastMileDistance": 0,
+                      "serviceability": "SERVICEABLE_WITH_BANNER",
+                      "rainMode": "HEAVY",
+                      "longDistance": "NOT_LONG_DISTANCE",
+                      "preferentialService": false,
+                      "iconType": "EMPTY"
+                    },
+                    "promoted": false,
+                    "avgRating": "--",
+                    "totalRatings": 0,
+                    "new": true
+                  },
+                  "subtype": "basic",
+                  "crouton": {
+                    "type": "RAIN",
+                    "metaInfo": {
+                      "bgColor": "#282C3F",
+                      "icon": "surge_listing_piuzrv",
+                      "textColor": "#ffffff",
+                      "title": "Bad Weather",
+                      "message": "₹15 extra levied on some restaurants"
+                    }
+                  }
+                },
+                {
+                  "type": "restaurant",
+                  "data": {
+                    "type": "F",
+                    "id": "47905",
+                    "name": "Gopi Dining Hall",
+                    "uuid": "3126b87c-e316-48ee-a433-d9373eb5ada1",
+                    "city": "10",
+                    "area": "Jodhpur Village",
+                    "totalRatingsString": "1000+ ratings",
+                    "cloudinaryImageId": "me2jfsgyfi2rd6h2kr4y",
+                    "cuisines": [
+                      "Indian",
+                      "Gujarati"
+                    ],
+                    "tags": [
+                      
+                    ],
+                    "costForTwo": 45000,
+                    "costForTwoString": "₹450 FOR TWO",
+                    "deliveryTime": 74,
+                    "minDeliveryTime": 74,
+                    "maxDeliveryTime": 74,
+                    "slaString": "74 MINS",
+                    "lastMileTravel": 3,
+                    "slugs": {
+                      "restaurant": "gopi-dining-hall-satellite-prahlad-nagar",
+                      "city": "ahmedabad"
+                    },
+                    "cityState": "10",
+                    "address": "1 -5, Sahjanand Complex, 100 Feet Road, Satellite, Ahmedabad",
+                    "locality": "Satellite",
+                    "parentId": 89100,
+                    "unserviceable": true,
+                    "veg": true,
+                    "select": false,
+                    "favorite": false,
+                    "tradeCampaignHeaders": [
+                      
+                    ],
+                    "chain": [
+                      
+                    ],
+                    "feeDetails": {
+                      "fees": [
+                        {
+                          "name": "distance",
+                          "fee": 3300,
+                          "message": ""
+                        },
+                        {
+                          "name": "special",
+                          "fee": 1500,
+                          "message": ""
+                        },
+                        {
+                          "name": "time",
+                          "fee": 0,
+                          "message": ""
+                        }
+                      ],
+                      "totalFees": 4800,
+                      "message": "",
+                      "title": "Delivery Charge",
+                      "amount": "4800",
+                      "icon": ""
+                    },
+                    "availability": {
+                      "opened": true,
+                      "nextOpenMessage": "",
+                      "nextCloseMessage": ""
+                    },
+                    "longDistanceEnabled": 0,
+                    "rainMode": "HEAVY",
+                    "thirdPartyAddress": false,
+                    "thirdPartyVendor": "",
+                    "adTrackingID": "",
+                    "badges": {
+                      "imageBased": [
+                        
+                      ],
+                      "textBased": [
+                        
+                      ],
+                      "textExtendedBadges": [
+                        
+                      ]
+                    },
+                    "lastMileTravelString": "3 kms",
+                    "hasSurge": false,
+                    "sla": {
+                      "restaurantId": "47905",
+                      "deliveryTime": 74,
+                      "minDeliveryTime": 74,
+                      "maxDeliveryTime": 74,
+                      "lastMileTravel": 3,
+                      "lastMileDistance": 0,
+                      "serviceability": "SERVICEABLE_WITH_BANNER",
+                      "rainMode": "HEAVY",
+                      "longDistance": "NOT_LONG_DISTANCE",
+                      "preferentialService": false,
+                      "iconType": "EMPTY"
+                    },
+                    "promoted": false,
+                    "avgRating": "4.2",
+                    "totalRatings": 1000,
+                    "new": false
+                  },
+                  "subtype": "basic",
+                  "crouton": {
+                    "type": "RAIN",
+                    "metaInfo": {
+                      "bgColor": "#282C3F",
+                      "icon": "surge_listing_piuzrv",
+                      "textColor": "#ffffff",
+                      "title": "Bad Weather",
+                      "message": "₹15 extra levied on some restaurants"
+                    }
+                  }
+                },
+                {
+                  "type": "restaurant",
+                  "data": {
+                    "type": "F",
+                    "id": "58636",
+                    "name": "Ame Gujarati",
+                    "uuid": "19936859-3231-493a-a2e8-8ca899269749",
+                    "city": "10",
+                    "area": "Ambawadi",
+                    "totalRatingsString": "5000+ ratings",
+                    "cloudinaryImageId": "hg5yl8lmlovau6dcp8yb",
+                    "cuisines": [
+                      "Gujarati",
+                      "Combo"
+                    ],
+                    "tags": [
+                      
+                    ],
+                    "costForTwo": 25000,
+                    "costForTwoString": "₹250 FOR TWO",
+                    "deliveryTime": 88,
+                    "minDeliveryTime": 88,
+                    "maxDeliveryTime": 88,
+                    "slaString": "88 MINS",
+                    "lastMileTravel": 5,
+                    "slugs": {
+                      "restaurant": "ame-gujarati-nehrunagar-paldi-ambawadi",
+                      "city": "ahmedabad"
+                    },
+                    "cityState": "10",
+                    "address": "Ame Gujarati, Pushpak Avenue, Opp. Jain derasar, near Nehrunagar Circle Ambawadi",
+                    "locality": "Nehrunagar",
+                    "parentId": 7565,
+                    "unserviceable": true,
+                    "veg": true,
+                    "select": false,
+                    "favorite": false,
+                    "tradeCampaignHeaders": [
+                      
+                    ],
+                    "chain": [
+                      
+                    ],
+                    "feeDetails": {
+                      "fees": [
+                        {
+                          "name": "distance",
+                          "fee": 4700,
+                          "message": ""
+                        },
+                        {
+                          "name": "special",
+                          "fee": 1500,
+                          "message": ""
+                        },
+                        {
+                          "name": "time",
+                          "fee": 0,
+                          "message": ""
+                        }
+                      ],
+                      "totalFees": 6200,
+                      "message": "",
+                      "title": "Delivery Charge",
+                      "amount": "6200",
+                      "icon": ""
+                    },
+                    "availability": {
+                      "opened": true,
+                      "nextOpenMessage": "",
+                      "nextCloseMessage": ""
+                    },
+                    "longDistanceEnabled": 0,
+                    "rainMode": "HEAVY",
+                    "thirdPartyAddress": false,
+                    "thirdPartyVendor": "",
+                    "adTrackingID": "",
+                    "badges": {
+                      "imageBased": [
+                        
+                      ],
+                      "textBased": [
+                        
+                      ],
+                      "textExtendedBadges": [
+                        
+                      ]
+                    },
+                    "lastMileTravelString": "5 kms",
+                    "hasSurge": false,
+                    "sla": {
+                      "restaurantId": "58636",
+                      "deliveryTime": 88,
+                      "minDeliveryTime": 88,
+                      "maxDeliveryTime": 88,
+                      "lastMileTravel": 5,
+                      "lastMileDistance": 0,
+                      "serviceability": "SERVICEABLE_WITH_BANNER",
+                      "rainMode": "HEAVY",
+                      "longDistance": "NOT_LONG_DISTANCE",
+                      "preferentialService": false,
+                      "iconType": "EMPTY"
+                    },
+                    "promoted": false,
+                    "avgRating": "3.5",
+                    "totalRatings": 5000,
+                    "new": false
+                  },
+                  "subtype": "basic",
+                  "crouton": {
+                    "type": "RAIN",
+                    "metaInfo": {
+                      "bgColor": "#282C3F",
+                      "icon": "surge_listing_piuzrv",
+                      "textColor": "#ffffff",
+                      "title": "Bad Weather",
+                      "message": "₹15 extra levied on some restaurants"
+                    }
+                  }
+                },
+                {
+                  "type": "restaurant",
+                  "data": {
+                    "type": "F",
+                    "id": "698575",
+                    "name": "Farki",
+                    "uuid": "4c69919c-5066-4307-8ff3-8ed613f4f08c",
+                    "city": "10",
+                    "area": "Law Garden, Navrangpura",
+                    "totalRatingsString": "50+ ratings",
+                    "cloudinaryImageId": "b765e29e96c980994eabd849123184a1",
+                    "cuisines": [
+                      "Ice Cream",
+                      "Beverages",
+                      "Sweets"
+                    ],
+                    "tags": [
+                      
+                    ],
+                    "costForTwo": 20000,
+                    "costForTwoString": "₹200 FOR TWO",
+                    "deliveryTime": 56,
+                    "minDeliveryTime": 56,
+                    "maxDeliveryTime": 56,
+                    "slaString": "56 MINS",
+                    "lastMileTravel": 6.300000190734863,
+                    "slugs": {
+                      "restaurant": "farki-navrangpura-navrangpura-2",
+                      "city": "ahmedabad"
+                    },
+                    "cityState": "10",
+                    "address": "GF-03 MAJESTIC PLAZA, NEAR LE JARDIN FLAT AND LAW GARDEN BRTS STAND ,OPP KRISHNA SOC,ELLISBRIDGE , Ahmedabad , 380006",
+                    "locality": "Majestic Plaza",
+                    "parentId": 78607,
+                    "unserviceable": true,
+                    "veg": false,
+                    "select": false,
+                    "favorite": false,
+                    "tradeCampaignHeaders": [
+                      
+                    ],
+                    "chain": [
+                      
+                    ],
+                    "feeDetails": {
+                      "fees": [
+                        {
+                          "name": "distance",
+                          "fee": 5400,
+                          "message": ""
+                        },
+                        {
+                          "name": "special",
+                          "fee": 1500,
+                          "message": ""
+                        },
+                        {
+                          "name": "time",
+                          "fee": 0,
+                          "message": ""
+                        }
+                      ],
+                      "totalFees": 6900,
+                      "message": "",
+                      "title": "Delivery Charge",
+                      "amount": "6900",
+                      "icon": ""
+                    },
+                    "availability": {
+                      "opened": true,
+                      "nextOpenMessage": "",
+                      "nextCloseMessage": ""
+                    },
+                    "longDistanceEnabled": 0,
+                    "rainMode": "HEAVY",
+                    "thirdPartyAddress": false,
+                    "thirdPartyVendor": "",
+                    "adTrackingID": "",
+                    "badges": {
+                      "imageBased": [
+                        
+                      ],
+                      "textBased": [
+                        
+                      ],
+                      "textExtendedBadges": [
+                        
+                      ]
+                    },
+                    "lastMileTravelString": "6.3 kms",
+                    "hasSurge": false,
+                    "sla": {
+                      "restaurantId": "698575",
+                      "deliveryTime": 56,
+                      "minDeliveryTime": 56,
+                      "maxDeliveryTime": 56,
+                      "lastMileTravel": 6.300000190734863,
+                      "lastMileDistance": 0,
+                      "serviceability": "NON_SERVICEABLE",
+                      "rainMode": "HEAVY",
+                      "longDistance": "NOT_LONG_DISTANCE",
+                      "preferentialService": false,
+                      "iconType": "EMPTY"
+                    },
+                    "promoted": false,
+                    "avgRating": "4.4",
+                    "totalRatings": 50,
+                    "new": false
+                  },
+                  "subtype": "basic",
+                  "crouton": {
+                    "type": "RAIN",
+                    "metaInfo": {
+                      "bgColor": "#282C3F",
+                      "icon": "surge_listing_piuzrv",
+                      "textColor": "#ffffff",
+                      "title": "Bad Weather",
+                      "message": "₹15 extra levied on some restaurants"
+                    }
+                  }
+                },
+                {
+                  "type": "restaurant",
+                  "data": {
+                    "type": "F",
+                    "id": "317236",
+                    "name": "Jugaadi Adda",
+                    "uuid": "583012ea-7675-4556-b247-391291ce2835",
+                    "city": "10",
+                    "area": "Paldi",
+                    "totalRatingsString": "1000+ ratings",
+                    "cloudinaryImageId": "jdzvcvx3i8msrrofg9b8",
+                    "cuisines": [
+                      "Indian"
+                    ],
+                    "tags": [
+                      
+                    ],
+                    "costForTwo": 20000,
+                    "costForTwoString": "₹200 FOR TWO",
+                    "deliveryTime": 85,
+                    "minDeliveryTime": 85,
+                    "maxDeliveryTime": 85,
+                    "slaString": "85 MINS",
+                    "lastMileTravel": 7.099999904632568,
+                    "slugs": {
+                      "restaurant": "jugaadi-adda-paldi-&-ambawadi-paldi-&-ambawadi",
+                      "city": "ahmedabad"
+                    },
+                    "cityState": "10",
+                    "address": "SHOP N0 -G-F-4,GIRI BHAVAN,OPP DOMINO PIZZA NR PANKAJ SOCIETY,PALDI.AHMEDABAD, Ahmedabad ,Ahmedabad Municipal Corporation, Ahmedabad Municipal Corporation, Gujarat - 380007",
+                    "locality": "Opp Domino Pizza Nr Pankaj Society",
+                    "parentId": 111758,
+                    "unserviceable": true,
+                    "veg": true,
+                    "select": false,
+                    "favorite": false,
+                    "tradeCampaignHeaders": [
+                      
+                    ],
+                    "chain": [
+                      
+                    ],
+                    "feeDetails": {
+                      "fees": [
+                        {
+                          "name": "distance",
+                          "fee": 6100,
+                          "message": ""
+                        },
+                        {
+                          "name": "special",
+                          "fee": 1500,
+                          "message": ""
+                        },
+                        {
+                          "name": "time",
+                          "fee": 0,
+                          "message": ""
+                        }
+                      ],
+                      "totalFees": 7600,
+                      "message": "",
+                      "title": "Delivery Charge",
+                      "amount": "7600",
+                      "icon": ""
+                    },
+                    "availability": {
+                      "opened": true,
+                      "nextOpenMessage": "",
+                      "nextCloseMessage": ""
+                    },
+                    "longDistanceEnabled": 0,
+                    "rainMode": "HEAVY",
+                    "thirdPartyAddress": false,
+                    "thirdPartyVendor": "",
+                    "adTrackingID": "",
+                    "badges": {
+                      "imageBased": [
+                        
+                      ],
+                      "textBased": [
+                        
+                      ],
+                      "textExtendedBadges": [
+                        
+                      ]
+                    },
+                    "lastMileTravelString": "7 kms",
+                    "hasSurge": false,
+                    "sla": {
+                      "restaurantId": "317236",
+                      "deliveryTime": 85,
+                      "minDeliveryTime": 85,
+                      "maxDeliveryTime": 85,
+                      "lastMileTravel": 7.099999904632568,
+                      "lastMileDistance": 0,
+                      "serviceability": "SERVICEABLE_WITH_BANNER",
+                      "rainMode": "HEAVY",
+                      "longDistance": "NOT_LONG_DISTANCE",
+                      "preferentialService": false,
+                      "iconType": "EMPTY"
+                    },
+                    "promoted": false,
+                    "avgRating": "3.8",
+                    "totalRatings": 1000,
+                    "new": false
+                  },
+                  "subtype": "basic",
+                  "crouton": {
+                    "type": "RAIN",
+                    "metaInfo": {
+                      "bgColor": "#282C3F",
+                      "icon": "surge_listing_piuzrv",
+                      "textColor": "#ffffff",
+                      "title": "Bad Weather",
+                      "message": "₹15 extra levied on some restaurants"
+                    }
+                  }
+                },
+                {
+                  "type": "restaurant",
+                  "data": {
+                    "type": "F",
+                    "id": "389310",
+                    "name": "Khana Khazana /24 Carat Cafe - Inder Residency",
+                    "uuid": "09c87753-4913-47b9-a5fc-92353e065517",
+                    "city": "10",
+                    "area": "Ellis Bridge",
+                    "totalRatingsString": "Too Few Ratings",
+                    "cloudinaryImageId": "zh1uo23iwdcslar703t0",
+                    "cuisines": [
+                      "North Indian",
+                      "Desserts",
+                      "Beverages",
+                      "Tandoor"
+                    ],
+                    "tags": [
+                      
+                    ],
+                    "costForTwo": 85000,
+                    "costForTwoString": "₹850 FOR TWO",
+                    "deliveryTime": 79,
+                    "minDeliveryTime": 79,
+                    "maxDeliveryTime": 79,
+                    "slaString": "79 MINS",
+                    "lastMileTravel": 7,
+                    "slugs": {
+                      "restaurant": "khana-khazana-/24-carat-cafe-naranpura-naranpura",
+                      "city": "ahmedabad"
+                    },
+                    "cityState": "10",
+                    "address": "Inder Residency, Opposite Gujarat College, Ellis Bridge, Ahmedabad,380006",
+                    "locality": "Naranpura",
+                    "parentId": 248716,
+                    "unserviceable": true,
+                    "veg": false,
+                    "select": false,
+                    "favorite": false,
+                    "tradeCampaignHeaders": [
+                      
+                    ],
+                    "chain": [
+                      
+                    ],
+                    "feeDetails": {
+                      "fees": [
+                        {
+                          "name": "distance",
+                          "fee": 6100,
+                          "message": ""
+                        },
+                        {
+                          "name": "special",
+                          "fee": 1500,
+                          "message": ""
+                        },
+                        {
+                          "name": "time",
+                          "fee": 0,
+                          "message": ""
+                        }
+                      ],
+                      "totalFees": 7600,
+                      "message": "",
+                      "title": "Delivery Charge",
+                      "amount": "7600",
+                      "icon": ""
+                    },
+                    "availability": {
+                      "opened": true,
+                      "nextOpenMessage": "",
+                      "nextCloseMessage": ""
+                    },
+                    "longDistanceEnabled": 0,
+                    "rainMode": "HEAVY",
+                    "thirdPartyAddress": false,
+                    "thirdPartyVendor": "",
+                    "adTrackingID": "",
+                    "badges": {
+                      "imageBased": [
+                        
+                      ],
+                      "textBased": [
+                        
+                      ],
+                      "textExtendedBadges": [
+                        
+                      ]
+                    },
+                    "lastMileTravelString": "7 kms",
+                    "hasSurge": false,
+                    "sla": {
+                      "restaurantId": "389310",
+                      "deliveryTime": 79,
+                      "minDeliveryTime": 79,
+                      "maxDeliveryTime": 79,
+                      "lastMileTravel": 7,
+                      "lastMileDistance": 0,
+                      "serviceability": "NON_SERVICEABLE",
+                      "rainMode": "HEAVY",
+                      "longDistance": "NOT_LONG_DISTANCE",
+                      "preferentialService": false,
+                      "iconType": "EMPTY"
+                    },
+                    "promoted": false,
+                    "avgRating": "--",
+                    "totalRatings": 0,
+                    "new": false
+                  },
+                  "subtype": "basic",
+                  "crouton": {
+                    "type": "RAIN",
+                    "metaInfo": {
+                      "bgColor": "#282C3F",
+                      "icon": "surge_listing_piuzrv",
+                      "textColor": "#ffffff",
+                      "title": "Bad Weather",
+                      "message": "₹15 extra levied on some restaurants"
+                    }
+                  }
+                }
+              ],
+              "totalRestaurants": 95
+            },
+            "subtype": "personalized"
+          },
+          "parentWidget": false
+        }
+      ],
+      "nextPageFetch": 0
+    },
+    "tid": "c70957e1-5070-4e80-8b79-e4a093e6ab02",
+    "sid": "7x7a4c89-1d18-4ca2-9c15-fbae1450e1f0",
+    "deviceId": "35019faa-9584-8263-7b80-17fd12a33c48",
+    "csrfToken": "zbjKubLRzmoA-Dn3HlWCvjTPs60kktaj7YNa2Nc0"
+  }
