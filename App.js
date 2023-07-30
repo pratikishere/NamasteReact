@@ -34,12 +34,10 @@ const HeaderLeftSection = () => (
 
 const HeaderRightSection = () => (
   <div className="headerRightSection">
-    <ul>
-      <li>Home</li>
-      <li>About</li>
-      <li>Contact</li>
-      <li>Cart</li>
-    </ul>
+    <div className="nav-item">Home</div>
+    <div className="nav-item">About</div>
+    <div className="nav-item">Contact</div>
+    <div className="nav-item">Cart</div>
   </div>
 );
 
