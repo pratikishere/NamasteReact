@@ -1,0 +1,95 @@
+.restaurant-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  row-gap: 32px;
+  column-gap: 32px;
+  margin: 32px 16px;
+  padding: 0;
+}
+
+.restaurant-card {
+  display: flex;
+  flex-direction: column;
+  font-family: sans-serif, Arial;
+  padding: 0;
+  margin: 0;
+}
+
+.restaurant-card:hover {
+  transition-property: all;
+  transition-delay: 0s;
+  transition-timing-function: ease;
+  transition-duration: 0.015s;
+  margin-left: 3px;
+  margin-right: 3px;
+  margin-bottom: 3px;
+  box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  border-radius: 15px;
+}
+
+.restaurant-image-container {
+  border-radius: 15px;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+.restaurant-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  aspect-ratio: 3/2;
+}
+
+.restaurant-content {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.restaurant-title {
+  font-weight: 600;
+  font-size: 18px;
+  color: rgba(2, 6, 12, 0.75);
+  width: 100%;
+  letter-spacing: -0.3px;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+.restaurant-rating-image {
+  width: 20px;
+  height: 20px;
+  margin-right: 3px;
+}
+
+.restaurant-ratings {
+  align-items: flex-end;
+  display: flex;
+  margin-top: 3px;
+  color: rgba(2, 6, 12, 0.75);
+  font-size: 15px;
+}
+
+.restaurant-subtitle, .restaurant-location {
+  color: rgba(2, 6, 12, 0.6);
+  font-size: 15px;
+  line-height: 19px;
+  font-weight: 200;
+  letter-spacing: -0.3px;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  width: 100%;
+  display: -webkit-box;
+  overflow-wrap: break-word;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+}
+
+.restaurant-subtitle {
+  margin-top: 6px;
+}
+
+.restaurant-location {
+  margin-top: 3px;
+}

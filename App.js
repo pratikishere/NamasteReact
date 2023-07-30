@@ -1,10 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import logo from "./assets/food_villa_logo.jpeg";
-import burgerKingIcon from "./assets/burger_king.png";
-import subwayIcon from "./assets/subway-logo.jpg";
-import vadilalIcon from "./assets/vadilal.png";
-import bigDadyIcon from "./assets/big_dady.jpeg";
+import ratingHighIcon from "./assets/rating-high.png";
 import data from "./data.json";
 
 // Header
@@ -43,8 +40,56 @@ const HeaderRightSection = () => (
 
 const restaurantListFromJson = data.data.cards[0].data.data.cards;
 
-const Body = () => {
-  return <div>Body</div>;
+const BodySection = () => {
+  return (
+    <div>
+      <RestaurantGrid />
+    </div>
+  );
+};
+
+const RestaurantGrid = () => {
+  return (
+    <div className="restaurant-grid">
+      <RestaurantCard />
+      <RestaurantCard />
+      <RestaurantCard />
+      <RestaurantCard />
+      <RestaurantCard />
+    </div>
+  );
+};
+
+const RestaurantCard = () => {
+  return (
+    <div className="restaurant-card">
+      <div className="restaurant-image-container">
+        <img
+          className="restaurant-image"
+          src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/ee5f8e06b300efc07c9fe3f4df40dfc4"
+          alt="No image"
+        />
+      </div>
+
+      <div className="restaurant-content">
+        <div className="restaurant-title">McDonald's</div>
+        <div className="restaurant-ratings">
+          <img
+            className="restaurant-rating-image"
+            src={ratingHighIcon}
+            alt=""
+          />
+          4.3
+        </div>
+        <div className="restaurant-subtitle">
+          Burgers, Beverages, Cafe, Desserts, Burgers, Beverages, Cafe, Desserts
+        </div>
+        <div className="restaurant-location">
+          Pimpri long address Pimpri long
+        </div>
+      </div>
+    </div>
+  );
 };
 
 const Footer = () => {
@@ -55,7 +100,7 @@ const AppLayout = () => {
   return (
     <>
       <Header />
-      <Body />
+      <BodySection />
       <Footer />
     </>
   );
