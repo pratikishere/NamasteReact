@@ -1,0 +1,29 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+  border: 1px solid black;
+  align-items: center;
+}
+
+.headerLeftSection {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 70px;
+  height: 70px;
+  margin-right: 5px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.headerRightSection > ul {
+  list-style-type: none;
+  display: flex;
+}
+
+.headerRightSection > ul > li {
+  padding: 10px;
+}
