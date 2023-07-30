@@ -1,3 +1,52 @@
+### What is react fragment?
+
+React Fragment is a feature in React that allows you to return multiple elements from a React component by allowing you to group a list of children without adding extra nodes to the DOM. To return multiple elements from a React component, you'll need to wrap the element in a root element.
+
+```
+class Columns extends React.Component {
+  render() {
+    return (
+      <React.Fragment>
+        <td>Hello</td>
+        <td>World</td>
+      </React.Fragment>
+    );
+  }
+}
+```
+
+Short Syntax
+
+```
+class Columns extends React.Component {
+  render() {
+    return (
+      <>
+        <td>Hello</td>
+        <td>World</td>
+      </>
+    );
+  }
+}
+```
+
+### PX or REM in CSS?
+
+Pixels are an absolute unit, so when you set the font size to 24 pixels, it’s going to be 24 pixels. Rems, on the other hand, are relative units that are based on the document’s font-size. The document’s default font size is 16 pixels, so 1.5rems x 16px is the equivalent of 24 pixels.
+
+[PX or REM](https://austingil.com/px-or-rem-in-css/)
+
+```
+<!DOCTYPE html>
+<html>
+<body>
+  <h1>PX vs. Rem</h1>
+  <p style="font-size: 24px;">My font size is 24px</p>
+  <p style="font-size: 1.5rem;">My font-size is 1.5rem</p>
+</body>
+</html>
+```
+
 # CSS
 
 ### What if there are multiple style sheets defined? Which style sheet gets the priority?
@@ -8,7 +57,7 @@ Inline style (inside an HTML element)
 External and internal style sheets (in the head section)  
 Browser default
 
-#### CSS background - Shorthand property
+### CSS background - Shorthand property
 
 Instead of writing:
 
@@ -29,7 +78,7 @@ body {
 }
 ```
 
-#### Specific Side Widths
+### Specific Side Widths
 
 ```
 p.two {
@@ -43,7 +92,7 @@ p.three {
 }
 ```
 
-#### If the border-style property has four values:
+### If the border-style property has four values:
 
 border-style: dotted solid double dashed;  
 top border is dotted  
@@ -51,25 +100,25 @@ right border is solid
 bottom border is double
 left border is dashed
 
-#### If the border-style property has three values:
+### If the border-style property has three values:
 
 border-style: dotted solid double;  
 top border is dotted  
 right and left borders are solid  
 bottom border is double
 
-#### If the border-style property has two values:
+### If the border-style property has two values:
 
 border-style: dotted solid;  
 top and bottom borders are dotted  
 right and left borders are solid
 
-#### If the border-style property has one value:
+### If the border-style property has one value:
 
 border-style: dotted;  
 all four borders are dotted
 
-#### Margin - Individual Sides
+### Margin - Individual Sides
 
 CSS has properties for specifying the margin for each side of an element:
 

@@ -39,3 +39,8 @@ This repo is created for learning React JS. The course name is NamasteReact by A
 - What is diffing?
 - What is functional component?
 - What sanitize means?
+
+# Chapter 4 - Talk is Cheap, show me the code
+
+- What is react fragment?
+- PX or REM in CSS?
