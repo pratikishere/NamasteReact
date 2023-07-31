@@ -59,30 +59,26 @@ const RestaurantGrid = () => {
 };
 
 const RestaurantCard = ({ restaurant }) => {
+  const { name, imageURL, rating, cusines, location } = restaurant;
+
   return (
     <div className="restaurant-card">
       <div className="restaurant-image-container">
-        <img
-          className="restaurant-image"
-          src={restaurant.imageURL}
-          alt="No image"
-        />
+        <img className="restaurant-image" src={imageURL} alt="No image" />
       </div>
 
       <div className="restaurant-content">
-        <div className="restaurant-title">{restaurant.name}</div>
+        <div className="restaurant-title">{name}</div>
         <div className="restaurant-ratings">
           <img
             className="restaurant-rating-image"
             src={ratingHighIcon}
             alt=""
           />
-          {restaurant.rating}
+          {rating}
         </div>
-        <div className="restaurant-subtitle">
-          {restaurant.cusines.join(", ")}
-        </div>
-        <div className="restaurant-location">{restaurant.location}</div>
+        <div className="restaurant-subtitle">{cusines.join(", ")}</div>
+        <div className="restaurant-location">{location}</div>
       </div>
     </div>
   );
