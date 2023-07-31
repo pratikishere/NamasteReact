@@ -2,7 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import logo from "./assets/food_villa_logo.jpeg";
 import ratingHighIcon from "./assets/rating-high.png";
-import data from "./data.json";
+import restaurantsJSON from "./mock-data/restaurants.json";
 
 // Header
 const Header = () => {
@@ -38,8 +38,6 @@ const HeaderRightSection = () => (
   </div>
 );
 
-const restaurantListFromJson = data.data.cards[0].data.data.cards;
-
 const BodySection = () => {
   return (
     <div>
@@ -48,45 +46,43 @@ const BodySection = () => {
   );
 };
 
+let restaurants = restaurantsJSON.restaurants;
+
 const RestaurantGrid = () => {
   return (
     <div className="restaurant-grid">
-      <RestaurantCard />
-      <RestaurantCard />
-      <RestaurantCard />
-      <RestaurantCard />
-      <RestaurantCard />
+      {restaurants.map((restaurant) => {
+        return <RestaurantCard restaurant={restaurant} />;
+      })}
     </div>
   );
 };
 
-const RestaurantCard = () => {
+const RestaurantCard = ({ restaurant }) => {
   return (
     <div className="restaurant-card">
       <div className="restaurant-image-container">
         <img
           className="restaurant-image"
-          src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/ee5f8e06b300efc07c9fe3f4df40dfc4"
+          src={restaurant.imageURL}
           alt="No image"
         />
       </div>
 
       <div className="restaurant-content">
-        <div className="restaurant-title">McDonald's</div>
+        <div className="restaurant-title">{restaurant.name}</div>
         <div className="restaurant-ratings">
           <img
             className="restaurant-rating-image"
             src={ratingHighIcon}
             alt=""
           />
-          4.3
+          {restaurant.rating}
         </div>
         <div className="restaurant-subtitle">
-          Burgers, Beverages, Cafe, Desserts, Burgers, Beverages, Cafe, Desserts
+          {restaurant.cusines.join(", ")}
         </div>
-        <div className="restaurant-location">
-          Pimpri long address Pimpri long
-        </div>
+        <div className="restaurant-location">{restaurant.location}</div>
       </div>
     </div>
   );
